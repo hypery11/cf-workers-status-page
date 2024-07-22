@@ -49,3 +49,23 @@ monitors:
     url: 'https://alert.csie.me/'
     method: GET
     expectStatus: 200
+    
+  - id: line.csie.me
+    name: line.csie.me
+    url: 'https://line.csie.me/'
+    method: GET
+    expectStatus: 200
+
+  - id: 1.1.1.1
+    name: 1.1.1.1
+    url: 'https://1.1.1.1/'
+    method: GET
+    expectStatus: 200
+
+  - id: av104vip.com
+    name: av104vip.com
+    url: 'https://av104vip.com/'
+    method: GET
+    expectStatus: 200
+
+    
