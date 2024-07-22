@@ -37,3 +37,15 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: sms.csie.me
+    name: sms.csie.me
+    url: 'https://sms.csie.me/'
+    method: GET
+    expectStatus: 200
+  
+  - id: alert.csie.me
+    name: alert.csie.me
+    url: 'https://alert.csie.me/'
+    method: GET
+    expectStatus: 200
